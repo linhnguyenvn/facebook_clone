@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng tin</title>
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <script src="./assets/bootstrap/jquery.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/dangtin.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div id="header">
+        <div class="row">
+            <div class="col-sm-4 back-header"><a href="index.html"><i class="fa-solid fa-arrow-left"></i></a></div>
+            <div class="col-sm-4 upcmt-header"><span>Tạo bài viết</span></div>
+            <div class="col-sm-4 dangtin-header"><button type="button" class="btn btn-info" onclick="dangbai()">Đăng</button></div>
+          </div>
+          <hr class="mg0">
+    </div>
+    <div id="duoi-header">
+        <img src="./assets/img/anh dai dien.jpg" alt="">
+        <div class="duoi-header-tenrieng">Bạch Sỹ Khang</div>
+    </div>
+    <div id="duoi-header-input">
+        <input type="text" placeholder="Bạn đang nghĩ gì ?" id="baidang-text">
+    </div>
+    <div id="thanhphanphu-add">
+        <ul>
+            <li><i class="fa-solid fa-photo-film"></i><span>Ảnh/Video</span></li>
+            <hr class="mg0">
+            <li><i class="fa-solid fa-user-tag"></i><span>Gắn thẻ người khác</span></li>
+            <hr class="mg0">
+            <li><i class="fa-regular fa-face-smile"></i><span>Cảm xúc/Hoạt động</span></li>
+            <hr class="mg0">
+            <li><i class="fa-solid fa-location-dot"></i><span>Check in</span></li>
+            <hr class="mg0">
+            <li><i class="fa-solid fa-video"></i><span>Video trực tiếp</span></li>
+            <hr class="mg0">
+            <li><i class="fa-solid fa-a"></i><span>Màu nền</span></li>
+            <hr class="mg0">
+            <li><i class="fa-solid fa-camera"></i><span>Camera</span></li>
+        </ul>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
